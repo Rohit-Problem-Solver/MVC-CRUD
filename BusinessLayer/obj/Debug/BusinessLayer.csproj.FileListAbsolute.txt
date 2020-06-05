@@ -1,0 +1,10 @@
+C:\00_Rohit\Own Learning\Own - VisualStudio-Projects\0.MVC Projects\CRIDinMVC\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\00_Rohit\Own Learning\Own - VisualStudio-Projects\0.MVC Projects\CRIDinMVC\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\00_Rohit\Own Learning\Own - VisualStudio-Projects\0.MVC Projects\CRIDinMVC\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\00_Rohit\Own Learning\Own - VisualStudio-Projects\0.MVC Projects\CRIDinMVC\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\00_Rohit\Own Learning\Own - VisualStudio-Projects\0.MVC Projects\CRIDinMVC\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\00_Rohit\0.Own Learning\Own - VisualStudio-Projects\0.MVC Projects\MVC-CRUDwithSQL\CRIDinMVC\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\00_Rohit\0.Own Learning\Own - VisualStudio-Projects\0.MVC Projects\MVC-CRUDwithSQL\CRIDinMVC\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\00_Rohit\0.Own Learning\Own - VisualStudio-Projects\0.MVC Projects\MVC-CRUDwithSQL\CRIDinMVC\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\00_Rohit\0.Own Learning\Own - VisualStudio-Projects\0.MVC Projects\MVC-CRUDwithSQL\CRIDinMVC\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\00_Rohit\0.Own Learning\Own - VisualStudio-Projects\0.MVC Projects\MVC-CRUDwithSQL\CRIDinMVC\BusinessLayer\obj\Debug\BusinessLayer.pdb
