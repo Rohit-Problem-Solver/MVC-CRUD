@@ -10,12 +10,23 @@ namespace CRIDinMVC.Controllers
 {
     public class ModelOperationController : Controller
     {
+        // For AJAX controll
+        bool AJAXOption = true;
+
+
         // GET: ModelOperation
-        public async Task<ActionResult> Index()
+        public ActionResult Index()
         {
             EmployeeBusinessLayer employeeBusinessLayer = new EmployeeBusinessLayer();
             List<Employee> employees = employeeBusinessLayer.Employees.ToList();
-            return View(employees);
+            if (AJAXOption == false)
+            {
+                return View(employees);
+            }
+            else
+            {
+                return View("AJAXView", employees);
+            }
         }
 
         [HttpGet]

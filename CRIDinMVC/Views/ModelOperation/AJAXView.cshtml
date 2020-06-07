@@ -9,17 +9,14 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>CreateAJAX</title>
     <script src="~/scripts/jquery-1.10.2.min.js"></script>
-    <link href="~/scripts/bootstrap.min.css" rel="stylesheet" />
-    <script src="~/scripts/bootstrap.min.js"></script>
 </head>
 <body>
     <p>
-        @Html.ActionLink("Create New Using AJAX", "Create")
         @Html.ActionLink("Create New", "Create")
     </p>
-    <table class="table" border="1">
+    <table class="table">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Name)
@@ -33,9 +30,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.DateOfBirth)
             </th>
-            <th>
-                Actions
-            </th>
+            <th></th>
         </tr>
     
     @foreach (var item in Model) {
@@ -53,19 +48,13 @@
                 @Html.DisplayFor(modelItem => item.DateOfBirth)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
-
-                @using (Html.BeginForm("Delete", "ModelOperation", new { id = item.ID }))
-                {
-                    <input type="submit" value="Delete" 
-                           onclick="return confirm('Are you sure you want to delete record with id = @item.Name')">
-                }
+                @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.ID })
             </td>
         </tr>
     }
     
     </table>
-
-    
 </body>
 </html>
