@@ -167,14 +167,18 @@
             $.ajax({
 
                 type: "POST",
-                url: "ModelOperation/Create_Post",
+                url: "Create",
                 data: myFormData,
                 success: function () {
 
                     $("#loaderDiv").hide();
                     $("#myModal").modal("hide");
+                },
+                error: function(){
+                    $("#loaderDiv").hide();
+                    alert("Not successful");
                 }
-            })
+        });
         })
     })
 
