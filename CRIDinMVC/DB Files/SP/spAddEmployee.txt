@@ -1,0 +1,22 @@
+USE [MVCPractice]
+GO
+
+/****** Object:  StoredProcedure [dbo].[spAddEmployee]    Script Date: 6/10/2020 1:37:26 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+Create procedure [dbo].[spAddEmployee]  
+@Name nvarchar(50),  
+@Gender nvarchar (10),  
+@City nvarchar (50),  
+@DateOfBirth DateTime  
+as  
+Begin  
+ Insert into tblEmployee (Name, Gender, City, DateOfBirth)  
+ Values (@Name, @Gender, @City, @DateOfBirth)  
+End
+GO
+

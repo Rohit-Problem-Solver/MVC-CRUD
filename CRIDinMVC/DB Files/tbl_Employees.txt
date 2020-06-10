@@ -1,0 +1,18 @@
+USE [MVCPractice]
+GO
+
+/****** Object:  Table [dbo].[Employees]    Script Date: 6/10/2020 1:35:18 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Employees](
+	[EmpId] [int] IDENTITY(1,1) NOT NULL,
+	[FirstName] [nvarchar](50) NULL,
+	[LastName] [nvarchar](50) NULL,
+	[Gender] [nvarchar](50) NULL
+) ON [PRIMARY]
+GO
+

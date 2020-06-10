@@ -1,0 +1,18 @@
+USE [MVCPractice]
+GO
+
+/****** Object:  StoredProcedure [dbo].[spGetAllEmployees]    Script Date: 6/10/2020 1:39:44 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+Create procedure [dbo].[spGetAllEmployees]
+as
+Begin
+ Select Id, Name, Gender, City, DateOfBirth
+ from tbl_ModelOperation
+End
+GO
+

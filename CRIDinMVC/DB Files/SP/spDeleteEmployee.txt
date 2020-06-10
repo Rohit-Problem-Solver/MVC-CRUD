@@ -1,0 +1,19 @@
+USE [MVCPractice]
+GO
+
+/****** Object:  StoredProcedure [dbo].[spDeleteEmployee]    Script Date: 6/10/2020 1:39:26 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+Create procedure [dbo].[spDeleteEmployee]
+@Id int
+as
+Begin
+ Delete from tbl_ModelOperation 
+ where Id = @Id
+End
+GO
+
